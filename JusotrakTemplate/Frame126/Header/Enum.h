@@ -1,0 +1,15 @@
+#pragma once
+enum class GROUP_TYPE
+{
+	PLAYER,
+	MONSTER,
+	PLAYER_BULLET,
+	END = 32,
+};
+
+enum class EVENT_TYPE {
+	CREATE_OBJECT,
+	DELETE_OBJECT,
+	SCENE_CHANGE,
+	LAST
+};
